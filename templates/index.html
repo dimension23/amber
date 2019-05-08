@@ -2,32 +2,23 @@
 <html>
 <head>
   <style type="text/css">
-      .fullscreenDiv {
-      background-color: #e8e8e8;
-      width: 100%;
-      height: auto;
-      bottom: 0px;
-      top: 0px;
-      left: 0;
-      position: absolute;
-    }
-    .center {
-      position: absolute;
-      border: none;
-      width: auto;
-      height: auto;
+  div {
+      height: 200px;
+      width: 600px;
+      background: white;
+      position: fixed;
       top: 50%;
       left: 50%;
-      margin-top: -25px;
-      margin-left: -50px;
-    }
+      margin-top: -80px;
+      margin-left: -300px;
+  }
   </style>
 <meta charset="UTF-8">
 <title>CI/CD Demo</title>
 </head>
 <body>
-  <div class='fullscreenDiv'>
-      <div class="center"><h1>{{ message }}</h1></div>
+  <div>
+      <h1>{{ message }}</h1>
   </div>​
 </body>
 </html>
