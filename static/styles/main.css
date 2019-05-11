@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
+.absolute-center {
+    height: 200px;
+    width: 600px;
+    background: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -300px;
+}
