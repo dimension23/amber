@@ -6,6 +6,6 @@ End to End CI/CD pipeline using Travis CI, Docker, and Heroku
 
 ## TO DO
 
-[ ] Font changes
-[ ] Random backgrounds
-[ ] Random quotes
+[x] Font changes
+[] Random backgrounds
+[] Random quotes

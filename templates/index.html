@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style type="text/css">
-  div {
-      height: 200px;
-      width: 600px;
-      background: white;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      margin-top: -80px;
-      margin-left: -300px;
-  }
-  </style>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 <title>CI/CD Demo</title>
 </head>
 <body>
-  <div>
+  <div class='absolute-center'>
       <h1>{{ message }}</h1>
   </div>​
 </body>
-</html>
